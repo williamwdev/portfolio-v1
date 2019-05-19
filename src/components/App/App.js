@@ -1,10 +1,10 @@
-import React, {Component} from "react";
-import { Route, Switch } from 'react-router-dom';
-import Nav from '../Nav/Nav'
-import HomePage from '../../routes/HomePage';
-import ProjectsPage from '../../routes/ProjectsPage';
-import ResumePage from '../../routes/ResumePage';
-import Footer from '../Footer/Footer';
+import React, { Component } from "react";
+import { Route, Switch } from "react-router-dom";
+import Nav from "../Nav/Nav";
+import HomePage from "../../routes/HomePage/HomePage";
+import ProjectsPage from "../../routes/ProjectsPage/ProjectsPage";
+import ResumePage from "../../routes/ResumePage/ResumePage";
+import Footer from "../Footer/Footer";
 
 export default class App extends Component {
   render() {
