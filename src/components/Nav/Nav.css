@@ -1,5 +1,6 @@
 nav {
-  background: hsla(0, 0%, 100%, 0.8);
+  background: url('../../images/bg01.jpg'); 
+  /* hsla(0, 0%, 100%, 0.8); */
   width: 100%;
   position: fixed;
   top: 0;
@@ -21,13 +22,13 @@ nav > ul > li > a {
   transition-property: color, font-weight;
   transition-duration: 0.1s;
   transition-timing-function: linear;
-  font-family: 'Source Sans Pro', sans-serif;
-  color: #666;
+  font-family: 'Lora', serif;
+  color: rgba(243, 230, 230, 0.884);
   font-weight: 400;
   text-decoration: none;
 }
 
 nav > ul > li > a:hover {
-  color: #111;
+  color: rgb(255, 255, 255);
   font-weight:500;
 }

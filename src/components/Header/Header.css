@@ -5,3 +5,20 @@ header {
   padding-bottom: 125px;
   text-align: center;
 }
+
+h1 {
+  font-size: 40px;
+  font-weight: bolder;
+}
+
+.header-name {
+  color: maroon;
+}
+
+h1, p {
+  font-family: 'Raleway', sans-serif;
+}
+
+p {
+  font-size: 24px;
+}
