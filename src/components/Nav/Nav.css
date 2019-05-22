@@ -1,10 +1,10 @@
 nav {
   display: flex;
   background: url('../../images/bg01.jpg'); 
-  /* hsla(0, 0%, 100%, 0.8); */
   justify-content: space-between;
   padding-top: 10px;
-  border-bottom: 1px solid #5b6786;
+  box-shadow: inset 0px -20px 70px 0px rgba(200, 220, 245, 0.1), inset 0px -1px 0px 0px rgba(255, 255, 255, 0.1), 0px 1px 7px 0px rgba(0, 0, 0, 0.6);
+  text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.75);
   width: 100%;
   flex: 1 0 auto;
   margin: 0;
@@ -36,34 +36,3 @@ nav > ul > li > a {
   text-decoration: none;
   margin-right: 15px;
 }
-
-
-
-/* nav > ul > li {
-  list-style: none;
-  display: inline;
-  padding: 5px;
-  padding-right: 20px;
-}
-
-nav > ul > li > a {
-  transition-property: color, font-weight;
-  transition-duration: 0.1s;
-  transition-timing-function: linear;
-  font-family: 'Lora', serif;
-  color: rgba(243, 230, 230, 0.884);
-  font-weight: 400;
-  text-decoration: none;
-}
-
-nav > ul > li > a:hover {
-  color: rgb(255, 255, 255);
-  font-weight:500;
-}
-
-nav > .logo {
-  padding: 5px;
-  margin: 0px;
-  margin-left: 5px;
-  text-decoration: none;
-} */

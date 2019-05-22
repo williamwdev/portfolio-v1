@@ -7,9 +7,13 @@
   margin: 0 auto;
 }
 
-body, html {
+body {
+  margin: 0;
   color: #333;
-  background: url('../../images/bg02.jpg');
+  background: url('../../images/bg04.jpg');
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
   height: 1000px;
 }
 
@@ -18,4 +22,16 @@ main {
   height: 100%;
   bottom: 0;
   margin: 0 auto;
+}
+
+section {
+  display: flex;
+  text-align: left;
+  align-content: center;
+  justify-content: center;
+  flex-direction: column;
+  font-family: 'Open Sans', sans-serif;
+  padding-left: 1em;
+  padding-right: 1em;
+  margin-top: 50px;
 }
