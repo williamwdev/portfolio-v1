@@ -1,17 +1,17 @@
 p {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 18px;
   text-align: left;
   margin-left: auto;
   margin-right: auto;
-  color: black
+  color: #474f51;
 }
 
 .about-container > section {
   margin-top: 50px;
-  width: 70vw;
+  width: 60vw;
   max-width: 940px;
-  background: url('../../images/bg02.jpg'); 
+  background: #fff;
   box-shadow: 0 10px 40px #555;
   border: 2px solid #2fa7bb;
   border-radius: 4px;
@@ -19,7 +19,7 @@ p {
 }
 
 .about-container > section > p {
-  width: 70vw;
+  width: 60vw;
   padding: 40px;
   max-width: 940px;
 }
@@ -27,4 +27,26 @@ p {
 .about-container > section:last-child {
   margin-bottom: 60px;
   /* border: solid 1px white; */
+}
+
+.abouts-container, .about-ss {
+  max-width: 100%;
+}
+
+.about-ss {
+  margin-top: 40px;
+  border-style: none;
+  width: 30vw;
+  border-radius: 50%;
+  box-shadow: 0 10px 15px #555;
+  border: 1px solid #04181b;
+}
+
+.about-ss2 {
+  margin-top: 0;
+  border-style: none;
+  width: 30vw;
+  border-radius: 50%;
+  box-shadow: 0 10px 15px #555;
+  border: 1px solid #04181b;
 }

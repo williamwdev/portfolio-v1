@@ -1,16 +1,16 @@
 p {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 18px;
   text-align: left;
   margin-left: auto;
   margin-right: auto;
-  color: black
+  color: #474f51;
 }
 
 .projects-container > section {
   width: 70vw;
   max-width: 940px;
-  background: url('../../images/bg02.jpg'); 
+  background: #fff;
   box-shadow: 0 10px 40px #555;
   border: 2px solid #2fa7bb;
   border-radius: 4px;

@@ -1,21 +1,34 @@
 import React, { Component } from "react";
 import "../About/About.css";
+import aboutme1 from "../../images/aboutme1.jpg";
+import aboutme2 from "../../images/aboutme2.jpg";
 
 export default class About extends Component {
   render() {
     return (
       <section className="about-container">
+        <img
+          src={aboutme2}
+          alt="screenshot of the dashboard of armory squad"
+          className="about-ss"
+        />
         <p className="about-me-intro">
-          Hi, I'm <span className='strong'>William</span> and I'm a Full-Stack Web Developer currently living in San Diego. Since building my
-          first gaming PC at the age of 12 in order to gain a competitive edge
-          in Counter-Strike, I have been fascinated by the world of computers. I
+          Hi, I'm <span className="strong">William</span> and I'm a Full-Stack
+          Web Developer currently living in San Diego. Since building my first
+          gaming PC at the age of 12 in order to gain a competitive edge in
+          Counter-Strike, I have been fascinated by the world of computers. I
           want to use web development as a platform to intermarry my background
           in Biochemistry and Economics with my passion for technology.
-          </p>
-          <br />
+        </p>
+        <br />
+        <img
+          src={aboutme1}
+          alt="screenshot of the dashboard of armory squad"
+          className="about-ss2"
+        />
 
-          <p className='about-me-interests'>
-          Based in sunny San Diego, you’ll find me taking my dog on picturesque
+        <p className="about-me-interests">
+          When I am not on my computer, you can find me taking my dog on picturesque
           adventures while satiating my hunger for good food wherever I go. When
           I’m not outside, I can be found engaging in competitive gaming and
           fantasy sports (specifically, basketball and football). I believe in
