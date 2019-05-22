@@ -9,9 +9,9 @@ export default class HomePage extends Component {
     return (
       <main className="homepage-container">
         <Header />
-        <section className="project-container">
+        {/* <section className="project-container">
           <Projects />
-        </section>
+        </section> */}
         <About />
       </main>
     );

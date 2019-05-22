@@ -1,19 +1,20 @@
 header {
   background: url('../../images/bg04.jpg'); 
   margin: 0 auto;
-  padding-top: 150px;
-  padding-bottom: 125px;
+  padding-top: 125px;
+  padding-bottom: 100px;
   text-align: center;
   color: white;
 }
 
 h1 {
-  font-size: 40px;
+  font-size: 3rem;
   font-weight: bolder;
 }
 
 .home-banner {
   width: 88vw;
+  max-width: 940px;
 }
 
 .banner-name {
