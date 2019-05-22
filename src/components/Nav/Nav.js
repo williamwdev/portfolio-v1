@@ -20,7 +20,7 @@ export default class Nav extends Component {
           </div>
           <ul className="nav-list">
             <li className="home-nav">
-              <Link to="/">About</Link>
+              <Link to="/about">About</Link>
             </li>
             <li className="projects-nav">
               <Link to="/projects">Projects</Link>

@@ -12,7 +12,6 @@ export default class HomePage extends Component {
         {/* <section className="project-container">
           <Projects />
         </section> */}
-        <About />
       </main>
     );
   }

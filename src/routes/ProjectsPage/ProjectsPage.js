@@ -7,7 +7,7 @@ export default class ProjectsPage extends Component {
     return (
       <div className="project-page">
         <div className="project-page-banner">
-          <h1 className="project-title">PROJECTS</h1>
+          <h1 className="project-title">Projects</h1>
         </div>
         <section className="projects-container">
           <Projects />

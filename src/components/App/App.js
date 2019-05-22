@@ -3,7 +3,7 @@ import { Route, Switch } from "react-router-dom";
 import Nav from "../Nav/Nav";
 import HomePage from "../../routes/HomePage/HomePage";
 import ProjectsPage from "../../routes/ProjectsPage/ProjectsPage";
-import ResumePage from "../../routes/ResumePage/ResumePage";
+import AboutPage from "../../routes/AboutPage/AboutPage";
 import Footer from "../Footer/Footer";
 import '../App/App.css'
 
@@ -15,7 +15,7 @@ export default class App extends Component {
         <main role="main">
           <Switch>
             <Route exact path={"/"} component={HomePage} />
-            <Route exact path={"/about"} component={ResumePage} />
+            <Route exact path={"/about"} component={AboutPage} />
             <Route exact path={"/projects"} component={ProjectsPage} />
           </Switch>
         </main>
