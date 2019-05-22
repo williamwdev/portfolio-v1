@@ -24,7 +24,8 @@ export default class About extends Component {
         <img
           src={aboutme1}
           alt="screenshot of the dashboard of armory squad"
-          className="about-ss2"
+          className="about-ss"
+          id='pancake-ss'
         />
 
         <p className="about-me-interests">

@@ -9,7 +9,7 @@ p {
 
 .about-container > section {
   margin-top: 50px;
-  width: 60vw;
+  width: 90vw;
   max-width: 940px;
   background: #fff;
   box-shadow: 0 10px 40px #555;
@@ -19,7 +19,7 @@ p {
 }
 
 .about-container > section > p {
-  width: 60vw;
+  width: 90vw;
   padding: 40px;
   max-width: 940px;
 }
@@ -40,13 +40,9 @@ p {
   border-radius: 50%;
   box-shadow: 0 10px 15px #555;
   border: 1px solid #04181b;
+  max-width: 400px;
 }
 
-.about-ss2 {
-  margin-top: 0;
-  border-style: none;
-  width: 30vw;
-  border-radius: 50%;
-  box-shadow: 0 10px 15px #555;
-  border: 1px solid #04181b;
+#pancake-ss {
+  margin-top: 0px;
 }

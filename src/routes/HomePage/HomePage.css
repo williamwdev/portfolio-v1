@@ -3,3 +3,7 @@
   /* border: solid 1px white; */
   background: url('../../images/bg02.jpg'); 
 }
+
+.homepage-container {
+  height: 100%;
+}

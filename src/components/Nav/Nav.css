@@ -1,6 +1,7 @@
 nav {
   display: flex;
   background: url('../../images/bg01.jpg'); 
+  opacity: 0.95;
   justify-content: space-between;
   padding-top: 10px;
   box-shadow: inset 0px -20px 70px 0px rgba(200, 220, 245, 0.1), inset 0px -1px 0px 0px rgba(255, 255, 255, 0.1), 0px 1px 7px 0px rgba(0, 0, 0, 0.6);
@@ -11,6 +12,8 @@ nav {
   padding: 0;  
   align-items: center;
   height: 55px;
+  position: fixed;
+  width: 100%;
 }
 
 .nav-container {
