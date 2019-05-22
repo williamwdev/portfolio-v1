@@ -12,6 +12,10 @@ h1 {
   font-weight: bolder;
 }
 
+.home-banner {
+  width: 88vw;
+}
+
 .banner-name {
   color: rgb(216, 25, 25);
 }
