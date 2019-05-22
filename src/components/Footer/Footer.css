@@ -24,3 +24,7 @@ a {
   width: 2.75em;
   margin: 20px;
 }
+
+.footer > a:hover {
+  color: red;
+}

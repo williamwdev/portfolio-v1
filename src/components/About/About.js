@@ -11,6 +11,7 @@ export default class About extends Component {
           src={aboutme2}
           alt="screenshot of the dashboard of armory squad"
           className="about-ss"
+          id='grad-ss'
         />
         <p className="about-me-intro">
           Hi, I'm <span className="strong">William</span> and I'm a Full-Stack
@@ -27,7 +28,6 @@ export default class About extends Component {
           className="about-ss"
           id='pancake-ss'
         />
-
         <p className="about-me-interests">
           When I am not on my computer, you can find me taking my dog on picturesque
           adventures while satiating my hunger for good food wherever I go. When

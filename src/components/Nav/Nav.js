@@ -1,7 +1,8 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import "../Nav/Nav.css";
-import ww from "../../images/ww.png";
+// import ww from "../../images/ww.png";
+import NwW from "../../images/NwW.png";
 
 export default class Nav extends Component {
   render() {
@@ -11,10 +12,10 @@ export default class Nav extends Component {
           <div className="logo">
             <Link to="/">
               <img
-                src={ww}
+                src={NwW}
                 alt="screenshot of the dashboard of armory squad"
                 className="nav-logo"
-                height="50px"
+                height="75px"
               />
             </Link>
           </div>
