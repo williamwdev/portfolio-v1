@@ -5,7 +5,7 @@ export default class About extends Component {
   render() {
     return (
       <section className='about-container'>
-        <p>placeholder for about me</p>
+        {/* <p>placeholder for about me</p> */}
       </section>
     )
   }

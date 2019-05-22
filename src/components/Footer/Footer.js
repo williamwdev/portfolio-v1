@@ -29,7 +29,7 @@ export default class Footer extends Component {
         </a>
         <a href="mailto:wwong1987@gmail.com">
           <i
-            className="fas fa-paper-plane fa-lg"
+            className="fas fa-envelope fa-lg"
             id="footer-email-icon"
             alt="email me link"
           />
