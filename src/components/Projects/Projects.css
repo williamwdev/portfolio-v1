@@ -8,7 +8,8 @@ p {
 }
 
 .projects-container > section {
-  width: 88vw;
+  width: 70vw;
+  max-width: 940px;
   background: url('../../images/bg02.jpg'); 
   box-shadow: 0 10px 40px #555;
   border: 2px solid #2fa7bb;
@@ -17,8 +18,9 @@ p {
 }
 
 .projects-container > section > p {
-  width: 88vw;
+  width: 70vw;
   padding: 40px;
+  max-width: 940px;
 }
 
 .projects-container > section:last-child {
@@ -27,11 +29,12 @@ p {
 }
 
 .projects-container, .project-ss {
-  max-width: 88vw;
+  max-width: calc(100% + 15px);
 }
 
 .project-ss {
   border-top-left-radius: 2px;
   border-top-right-radius: 2px;
   border-style: none;
+  width: 100vw;
 }
