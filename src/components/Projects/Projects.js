@@ -30,10 +30,22 @@ export default class Projects extends Component {
             creating a squad. Chat with your new squadmates within the app and
             plan out your gaming session.{" "}
           </p>
-          <p>
-            Created using HTML, CSS, React, Node, Express, PostgreSQL, and
+          <span className="tech-stack">
+            <strong>Built with</strong>: HTML, CSS, React, Node, Express, PostgreSQL, and
             SocketIO.{" "}
-          </p>
+          </span>
+          <a
+          href="https://github.com/thinkful-ei-armadillo/The-Armory-Client"
+          target="_blank"
+          rel="noopener noreferrer"
+          className='github-link'
+        >
+          <i
+            className="fab fa-github fa-lg"
+            id="footer-github-icon"
+            alt="github"
+          />
+        </a>
         </section>
 
         <section className="happydog-project">
@@ -50,9 +62,28 @@ export default class Projects extends Component {
           </a>
           <h2>Happy Dog</h2>
           <p>
-          Take the guesswork out of making sure your dogs are happy by keeping track of all of their basic needs. Ensure someone in your family takes care of your furry friend's basic needs and more. Sometimes life is hectic and we're not sure if our furry family members have been taken care of. Utilize the easy to use daily checklist with your family to make sure someone in your family has fed and/or walked your dog. Keep secured important notes and tasks for your dog.
+            Take the guesswork out of making sure your dogs are happy by keeping
+            track of all of their basic needs. Ensure someone in your family
+            takes care of your furry friend's basic needs and more. Sometimes
+            life is hectic and we're not sure if our furry family members have
+            been taken care of. Keep secured important notes and tasks for your
+            dog.
           </p>
-          <p>Created using HTML, CSS, React, Node, Express, and PostgreSQL.</p>
+          <span className="tech-stack">
+            <strong>Built with</strong>: HTML, CSS, React, Node, Express, and PostgreSQL{" "}
+          </span>
+          <a
+          href="https://github.com/dc5will/happydog-client"
+          target="_blank"
+          rel="noopener noreferrer"
+          className='github-link'
+        >
+          <i
+            className="fab fa-github fa-lg"
+            id="footer-github-icon"
+            alt="github"
+          />
+        </a>
         </section>
 
         <section className="bookmarkapp-project">
@@ -74,7 +105,21 @@ export default class Projects extends Component {
             favorite bookmarks. The app was bulit so I could have a way to
             consolidate and rate all the sites I frequently visit.{" "}
           </p>
-          <p>It was made with HTML, CSS, and Javascript.</p>
+          <span className="tech-stack">
+            <strong>Built with</strong>: HTML, CSS, and JavaScript{" "}
+          </span>
+          <a
+          href="https://github.com/thinkful-ei-armadillo/will-matt-bookmark"
+          target="_blank"
+          rel="noopener noreferrer"
+          className='github-link'
+        >
+          <i
+            className="fab fa-github fa-lg"
+            id="footer-github-icon"
+            alt="github"
+          />
+        </a>
         </section>
       </div>
     );

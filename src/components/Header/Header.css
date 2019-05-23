@@ -19,10 +19,16 @@ h1 {
 }
 
 .banner-name {
-  color: rgb(216, 25, 25);
+  color: rgb(238,29,36);
 }
 
-.banner-subtitle {
+.banner-subtitle, .banner-location {
+  font-size: 22px;
+  color: white;
+  text-align: center;
+}
+
+.banner-location {
   font-size: 20px;
 }
 

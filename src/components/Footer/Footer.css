@@ -20,8 +20,9 @@ a {
   border-radius: 2.75em;
   display: inline-block;
   height: 2.75em;
-  line-height: 2.75em;
   width: 2.75em;
+  font-size: 20px;
+  line-height: 2.75em;
   margin: 20px;
 }
 
