@@ -20,7 +20,7 @@ body, html {
   background: url('../../images/bg04.jpg');
   margin: 0;
   padding: 0;
-  line-height: 1.5;
+  line-height: 1.75;
   height: 100%;
   scroll-behavior: smooth;
 }
