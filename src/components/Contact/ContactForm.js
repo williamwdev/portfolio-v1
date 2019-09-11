@@ -11,7 +11,11 @@ class ContactForm extends Component {
     const message = document.getElementById("message").value;
     axios({
       method: "POST",
+<<<<<<< HEAD
       url: "http://localhost:8000/send",
+=======
+      url: "http://localhost:3002/send",
+>>>>>>> 37718f6c3dce33ddd2d8017257a59a41edd5987b
       data: {
         name: name,
         email: email,
@@ -28,7 +32,11 @@ class ContactForm extends Component {
   }
 
   resetForm() {
+<<<<<<< HEAD
     document.getElementsById("contact-form").reset();
+=======
+    document.getElementById("contact-form").reset();
+>>>>>>> 37718f6c3dce33ddd2d8017257a59a41edd5987b
   }
 
   render() {
@@ -40,11 +48,19 @@ class ContactForm extends Component {
           method="POST"
         >
           <div className="form-group">
+<<<<<<< HEAD
             <label htmlFor="name">Name</label>
             <input type="text" className="form-control" id="name" />
           </div>
           <div className="form-group">
             <label htmlFor="exampleInputEmail1">Email address</label>
+=======
+            <label for="name">Name</label>
+            <input type="text" className="form-control" id="name" />
+          </div>
+          <div className="form-group">
+            <label for="exampleInputEmail1">Email address</label>
+>>>>>>> 37718f6c3dce33ddd2d8017257a59a41edd5987b
             <input
               type="email"
               className="form-control"
@@ -53,10 +69,17 @@ class ContactForm extends Component {
             />
           </div>
           <div className="form-group">
+<<<<<<< HEAD
             <label htmlFor="message">Message</label>
             <textarea className="form-control" rows="5" id="message"></textarea>
           </div>
           <button type="submit" className="contactForm-button">
+=======
+            <label for="message">Message</label>
+            <textarea className="form-control" rows="5" id="message"></textarea>
+          </div>
+          <button type="submit" className="btn btn-primary">
+>>>>>>> 37718f6c3dce33ddd2d8017257a59a41edd5987b
             Submit
           </button>
         </form>

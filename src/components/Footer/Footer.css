@@ -2,7 +2,11 @@
   cursor: default;
   list-style: none;
   padding-left: 0;
+<<<<<<< HEAD
   /* margin: 150px 0 50px 0; */
+=======
+  margin: 150px 0 50px 0;
+>>>>>>> 37718f6c3dce33ddd2d8017257a59a41edd5987b
   text-align: center;
   left: 0;
   height: 50px;
