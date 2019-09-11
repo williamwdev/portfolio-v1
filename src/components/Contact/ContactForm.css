@@ -1,32 +1,28 @@
-.contact-form {
+#contact-form {
   color: white;
   max-width: 360px;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
-  padding-top: 100px;
+  padding-top: 200px;
 }
 
-.contact-form > :not(:last-child) {
+#contact-form > :not(:last-child) {
   margin-bottom: 16px;
 }
 
-.contact-form .form-field {
+#contact-form .form-group {
   display: flex;
   flex-direction: column;
 }
 
-.contact-form .label-content {
-  margin-bottom: 4px;
-}
-
-.contact-form input, .contact-form textarea {
-  display: flex;
-  flex: 1;
-  width: 100%;
-  max-width: 100%;
-}
-
-.contact-form label {
+#contact-form label {
   text-align: left;
+}
+
+.contactForm-button {
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  height: 30px;
 }
