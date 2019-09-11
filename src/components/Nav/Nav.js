@@ -38,7 +38,7 @@ export default class Nav extends Component {
                 />
             </a>
             <a
-              href="https://www.linkedin.com/in/william-wong-6869a257/"
+              href="http://www.linkedin.com/in/williamwong-ypw"
               target="_blank"
               rel="noopener noreferrer"
               >
@@ -48,7 +48,7 @@ export default class Nav extends Component {
                 alt="linkedin link"
                 />
             </a>
-            <a href="mailto:wwong1987@gmail.com">
+            <a href="mailto:wypwong916@gmail.com">
               <i
                 className="fas fa-envelope fa-lg"
                 id="footer-email-icon"

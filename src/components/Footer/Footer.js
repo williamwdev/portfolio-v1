@@ -17,7 +17,7 @@ export default class Footer extends Component {
           />
         </a>
         <a
-          href="https://www.linkedin.com/in/william-wong-6869a257/"
+          href="http://www.linkedin.com/in/williamwong-ypw"
           target="_blank"
           rel="noopener noreferrer"
         >
