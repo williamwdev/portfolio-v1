@@ -30,32 +30,43 @@ export default class Nav extends Component {
               href="https://github.com/dc5will"
               target="_blank"
               rel="noopener noreferrer"
-              >
+            >
               <i
                 className="fab fa-github fa-lg"
                 id="footer-github-icon"
                 alt="github"
-                />
+              />
             </a>
             <a
               href="http://www.linkedin.com/in/williamwong-ypw"
               target="_blank"
               rel="noopener noreferrer"
-              >
+            >
               <i
                 className="fab fa-linkedin-in fa-lg"
                 id="footer-linkedin-icon"
                 alt="linkedin link"
-                />
+              />
+            </a>
+            <a
+              href="https://docs.google.com/document/d/1K2_sv7rOciJB0azMnQBoFH1fUj-LHSpBXLSULl2-ZE0/edit?usp=sharing"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i
+                className="fas fa-file fa-lg"
+                id="footer-resume-icon"
+                alt="resume link"
+              />
             </a>
             <a href="mailto:wypwong916@gmail.com">
               <i
                 className="fas fa-envelope fa-lg"
                 id="footer-email-icon"
                 alt="email me link"
-                />
+              />
             </a>
-                </ul>
+          </ul>
         </nav>
       </div>
     );
