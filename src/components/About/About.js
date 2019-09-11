@@ -14,8 +14,7 @@ export default class About extends Component {
           id='grad-ss'
         />
         <p className="about-me-intro">
-          Hi, I'm <span className="strong">William</span> and I'm a Full-Stack
-          Web Developer currently living in San Diego. Since building my first
+          Hi, I'm <span className="strong">William</span> and I'm a Full-Stack Engineer specializing in PostgresQL, Express.js, React.js, and Node.js (PERN) stack. Since building my first
           gaming PC at the age of 12 in order to gain a competitive edge in
           Counter-Strike, I have been fascinated by the world of computers. I
           want to use web development as a platform to intermarry my background
