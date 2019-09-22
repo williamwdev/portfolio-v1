@@ -1,11 +1,13 @@
 import React, { Component } from 'react';
 import '../Header/Header.css'
 import NwW from '../../images/NwW.png';
+import Particles from 'react-particles-js';
 
 export default class Header extends Component {
   render() {
     return (
       <header role='banner' className='home-banner'>
+        <Particles height='250px'/>
             <img
               src={NwW}
               alt="header logo"
