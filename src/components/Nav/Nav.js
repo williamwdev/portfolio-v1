@@ -49,7 +49,7 @@ export default class Nav extends Component {
               />
             </a>
             <a
-              href="https://docs.google.com/document/d/1K2_sv7rOciJB0azMnQBoFH1fUj-LHSpBXLSULl2-ZE0/edit?usp=sharing"
+              href="https://resume.creddle.io/resume/e7prxj1wpof"
               target="_blank"
               rel="noopener noreferrer"
             >
