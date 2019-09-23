@@ -33,7 +33,7 @@ nav {
 
 .nav-logo {
   margin-left: 15px;
-  margin-top: 5px;
+  margin-top: 12px;
   border-radius: 50%;
   height: 50px;
 }
@@ -72,8 +72,14 @@ nav > ul > li > a {
 
 nav > ul > li > a:hover {
   color: rgb(238,29,36);
+  border-radius: 20%;
+  transition: 0.1s ease;
+  animation: pulse 1s infinite;
 }
 
 .nav-container i:hover {
+  border-radius: 20%;
   color: rgb(238,29,36);
+  transition: 0.1s ease;
+  animation: pulse 1s infinite;
 }

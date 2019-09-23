@@ -4,13 +4,14 @@ p {
   text-align: left;
   margin-left: auto;
   margin-right: auto;
-  color: #474f51;
+  /* color: #474f51; */
+  color: #fff;
 }
 
 .projects-container > section {
   width: 90vw;
   max-width: 940px;
-  background: #fff;
+  background: url("../../images/bg04.jpg");
   box-shadow: 0 10px 40px #555;
   border: 2px solid grey;
   border-radius: 4px;
@@ -21,6 +22,7 @@ p {
   padding: 40px;
   max-width: 940px;
   margin-bottom: 0px;
+  color: #fff;
 }
 
 .projects-container > section > p:last-child {
@@ -42,6 +44,7 @@ p {
 }
 
 .tech-stack {
+  color: #fff;
   font-family: 'Open Sans', sans-serif;
   text-align: center;
   font-size: 18px;
@@ -51,12 +54,13 @@ p {
 .github-link {
   text-align: center;
   font-size: 30px;
-  color: black;
+  color: #fff;
   margin-bottom: 15px;
 }
 
 h2 {
   font-size: 50px;
+  color: #fff;
   font-weight: 800;
   letter-spacing: -.10em;
   line-height: 75px;
