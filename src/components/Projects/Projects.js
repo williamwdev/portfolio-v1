@@ -3,7 +3,7 @@ import "../Projects/Projects.css";
 import armorySS from "../../images/armorySS.JPG";
 import happydogSS from "../../images/happydogSS.jpg";
 import bookmarkapp from "../../images/bookmarkappSS.jpg";
-import spacedRep from '../../images/spacedRep.png';
+import spacedRep from '../../images/spacedRep.jpg';
 
 export default class Projects extends Component {
   render() {
@@ -22,7 +22,7 @@ export default class Projects extends Component {
               className="project-ss"
             />
           </a>
-          <h2>Squad Armory</h2>
+          <h2 className='project-name'>Squad Armory</h2>
           <p>
             An app for gamers to find friends to play with in their favorite
             online multiplayer game. Create your own squad and find your perfect
@@ -31,6 +31,7 @@ export default class Projects extends Component {
             creating a squad. Chat with your new squadmates within the app and
             plan out your gaming session.{" "}
           </p>
+          <hr className="linebreak"/>
           <span className="tech-stack">
             <strong>Built with</strong>: HTML5, CSS3, React.js, Node.js, Express.js, , JWT, PostgreSQL, Nodemailer, Mocha/Chai, Supertest, Enzyme, Zeit NOW, Heroku and
             SocketIO{" "}
@@ -62,10 +63,11 @@ export default class Projects extends Component {
               className="project-ss"
             />
           </a>
-          <h2>Spaced Repetition Spanish</h2>
+          <h2 className='project-name'>Spaced Repetition Spanish</h2>
           <p>
           A full-stack app created to help a user learn Spanish vocabulary through the use of the spaced repetition technique. Words that you get wrong will be seen more frequently than words you get correct until you master them all. Implemented using singly linked list and completed following strict test specifications.
           </p>
+          <hr className="linebreak"/>
           <span className="tech-stack">
             <strong>Built with</strong>: HTML5, CSS3, React.js, React Context, Node.js, Knex.js, Express.js, JWT, Cypress, Mocha/Chai, Zeit NOW, Heroku and PostgreSQL{" "}
           </span>
@@ -96,7 +98,7 @@ export default class Projects extends Component {
               className="project-ss"
             />
           </a>
-          <h2>Happy Dog</h2>
+          <h2 className='project-name'>Happy Dog</h2>
           <p>
             Take the guesswork out of making sure your dogs are happy by keeping
             track of all of their basic needs. Ensure someone in your family
@@ -105,6 +107,7 @@ export default class Projects extends Component {
             been taken care of. Keep secured important notes and tasks for your
             dog.
           </p>
+          <hr className="linebreak"/>
           <span className="tech-stack">
             <strong>Built with</strong>: HTML5, CSS3, React.js, Node.js, Express.js, JWT, Mocha/Chai, Enzyme, Supertest, and PostgreSQL{" "}
           </span>
@@ -135,12 +138,13 @@ export default class Projects extends Component {
             />
           </a>
           {/* <br/> */}
-          <h2>Bookmark App</h2>
+          <h2 className='project-name'>Bookmark App</h2>
           <p>
             This is an web application that allows the users to save/rate their
             favorite bookmarks. The app was bulit so I could have a way to
             consolidate and rate all the sites I frequently visit.{" "}
           </p>
+          <hr className="linebreak"/>
           <span className="tech-stack">
             <strong>Built with</strong>: HTML, CSS, jQuery, JavaScript, and RESTful API {" "}
           </span>
