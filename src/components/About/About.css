@@ -11,7 +11,7 @@ p {
   margin-top: 50px;
   width: 90vw;
   max-width: 940px;
-  background: #fff;
+  background: url('../../images/bg04.jpg'); 
   box-shadow: 5px 10px 40px #555;
   border: 1px solid grey;
   border-radius: 4px;
@@ -21,6 +21,7 @@ p {
   width: 90vw;
   padding: 40px;
   max-width: 940px;
+  color: #fff;
 }
 
 .about-container > section:last-child {
@@ -36,9 +37,9 @@ p {
   margin-top: 40px;
   border-style: none;
   width: 30vw;
-  border-radius: 50%;
-  box-shadow: 0 10px 15px #555;
-  border: 1px solid grey;
+  border-radius: 5%;
+  /* box-shadow: 0 10px 15px #555; */
+  border: 1px solid #fff;
   max-width: 400px;
 }
 

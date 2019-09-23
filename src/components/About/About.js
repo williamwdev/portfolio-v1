@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "../About/About.css";
-import aboutme1 from "../../images/aboutme1.jpg";
+import aboutme3 from "../../images/aboutme3.jpg";
 import aboutme2 from "../../images/aboutme2.jpg";
 
 export default class About extends Component {
@@ -22,7 +22,7 @@ export default class About extends Component {
         </p>
         <br />
         <img
-          src={aboutme1}
+          src={aboutme3}
           alt="screenshot of the dashboard of armory squad"
           className="about-ss"
           id='pancake-ss'
