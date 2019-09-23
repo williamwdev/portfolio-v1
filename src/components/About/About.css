@@ -1,5 +1,5 @@
 p {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 18px;
   text-align: left;
   margin-left: auto;
@@ -11,7 +11,7 @@ p {
   margin-top: 50px;
   width: 90vw;
   max-width: 940px;
-  background: url('../../images/bg04.jpg'); 
+  background: url("../../images/bg04.jpg");
   box-shadow: 5px 10px 40px #555;
   border: 1px solid grey;
   border-radius: 4px;
@@ -29,7 +29,8 @@ p {
   /* border: solid 1px white; */
 }
 
-.abouts-container, .about-ss {
+.abouts-container,
+.about-ss {
   max-width: 100%;
 }
 
@@ -45,4 +46,12 @@ p {
 
 #pancake-ss {
   margin-top: 0px;
+}
+
+.linebreak {
+  color: #fff;
+  background: #fff;
+  height: 0.5;
+  width: 50%;
+  border: 1px solid #fff;
 }
