@@ -17,7 +17,7 @@ export default class Footer extends Component {
           />
         </a>
         <a
-          href="http://www.linkedin.com/in/williamwong-ypw"
+          href="http://www.linkedin.com/in/williamwdev"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -27,7 +27,7 @@ export default class Footer extends Component {
             alt="linkedin link"
           />
         </a>
-        <a href="mailto:wwong1987@gmail.com">
+        <a href="mailto:williamwdev@gmail.com">
           <i
             className="fas fa-envelope fa-lg"
             id="footer-email-icon"
