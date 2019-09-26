@@ -90,7 +90,7 @@ h2 {
 
 
 
-/* @media screen and (min-width: 1000px) {
+@media screen and (max-width: 800px) {
   .projects-container {
     display: flex;
     flex-wrap: wrap;
@@ -99,15 +99,15 @@ h2 {
   }
 
   .projects-container > section {
-    width: 400px;
-    max-width: 940px;
+    width: 88vw;
+    max-width: 88vw;
     margin-right: 40px;
   }
 
   .projects-container > section > p {
-    width: 400px;
+    width: 88vw;
     padding: 40px;
-    max-width: 940px;
+    max-width: 88vw;
     margin-bottom: 0px;
   }
 
@@ -116,6 +116,6 @@ h2 {
   }
   
   .project-ss {
-    width: 100vw;
+    width: 88vw;
   }
-} */
+}
