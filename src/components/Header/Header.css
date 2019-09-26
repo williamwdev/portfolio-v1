@@ -39,3 +39,7 @@ h1, p {
 p {
   font-size: 24px;
 }
+
+.MyTypist {
+    hideWhenDone: true, 
+}
