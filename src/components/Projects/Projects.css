@@ -9,18 +9,18 @@ p {
 }
 
 .projects-container > section {
-  width: 90vw;
-  max-width: 940px;
+  width: 800px;
+  max-width: 740px;
   background: url("../../images/bg04.jpg");
   box-shadow: 0 10px 40px #555;
-  border: 2px solid grey;
+  border: 2px solid white;
   border-radius: 4px;
 }
 
 .projects-container > section > p {
   width: 90vw;
   padding: 40px;
-  max-width: 940px;
+  max-width: 740px;
   margin-bottom: 0px;
   color: #fff;
 }
@@ -40,7 +40,7 @@ p {
 
 .project-ss {
   width: 100vw;
-  border-bottom: 2px solid black;
+  border-top: 1px solid white;
 }
 
 .tech-stack {
@@ -88,7 +88,9 @@ h2 {
   margin-right: auto;
 }
 
-@media screen and (min-width: 1500px) {
+
+
+/* @media screen and (min-width: 1000px) {
   .projects-container {
     display: flex;
     flex-wrap: wrap;
@@ -116,4 +118,4 @@ h2 {
   .project-ss {
     width: 100vw;
   }
-}
+} */
