@@ -1,8 +1,8 @@
 import React, { Component } from "react";
-import "../Header/Header.css";
 import Particles from "react-particles-js";
 import Typist from "react-typist";
 import NwW from "../../images/NwW.png";
+import "../Header/Header.css";
 
 export default class Header extends Component {
   render() {

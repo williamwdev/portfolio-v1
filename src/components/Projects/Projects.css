@@ -13,7 +13,7 @@ p {
   max-width: 740px;
   background: url("../../images/bg04.jpg");
   box-shadow: 0 10px 40px #555;
-  border: 2px solid white;
+  border: 1px solid #fff;
   border-radius: 4px;
 }
 
@@ -40,7 +40,7 @@ p {
 
 .project-ss {
   width: 100vw;
-  border-top: 1px solid white;
+  border-top: 1px solid #FFF;
 }
 
 .tech-stack {
