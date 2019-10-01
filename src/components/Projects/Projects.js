@@ -1,15 +1,14 @@
 import React, { Component } from "react";
-import "../Projects/Projects.css";
 import armorySS from "../../images/armorySS.JPG";
 import happydogSS from "../../images/happydogSS.jpg";
 import bookmarkapp from "../../images/bookmarkappSS.jpg";
 import spacedRep from "../../images/spacedRep.jpg";
+import "../Projects/Projects.css";
 
 export default class Projects extends Component {
   render() {
     return (
       <div className="projects-container">
-        {/* <h2>Projects</h2> */}
         <section className="armory-project">
           <h2 className="project-name">Squad Armory</h2>
           <p>

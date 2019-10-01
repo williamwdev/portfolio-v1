@@ -15,7 +15,8 @@ h1 {
 
 .home-banner {
   width: 88vw;
-  max-width: 940px;
+  max-width: 80vw;
+  height: 100%;
 }
 
 .banner-name {

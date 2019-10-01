@@ -4,9 +4,9 @@ import Nav from "../Nav/Nav";
 import HomePage from "../../routes/HomePage/HomePage";
 import ProjectsPage from "../../routes/ProjectsPage/ProjectsPage";
 import AboutPage from "../../routes/AboutPage/AboutPage";
-import Footer from "../Footer/Footer";
+import Footer from '../../components/Footer/Footer';
 import '../App/App.css'
-// import Particles from 'react-particles-js'
+
 
 export default class App extends Component {
   render() {
@@ -19,7 +19,7 @@ export default class App extends Component {
             <Route exact path={"/about"} component={AboutPage} />
             <Route exact path={"/projects"} component={ProjectsPage} />
           </Switch>
-        <Footer />
+          <Footer />
         </main>
       </div>
     );

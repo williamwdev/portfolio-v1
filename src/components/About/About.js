@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import "../About/About.css";
-import aboutme3 from "../../images/aboutme3.jpg";
 import aboutme2 from "../../images/aboutme2.jpg";
+import aboutme3 from "../../images/aboutme3.jpg";
+import "../About/About.css";
 
 export default class About extends Component {
   render() {
@@ -14,6 +14,7 @@ export default class About extends Component {
           id="grad-ss"
         />
         <p className="about-me-intro">
+          
           Hi, I'm <span className="strong">William</span> and I'm a Full-Stack
           Web Developer specializing in PostgresQL, Express.js, React.js, and Node.js
           (PERN) stack. Since building my first gaming PC at the age of 12 in
