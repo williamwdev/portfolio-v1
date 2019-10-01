@@ -10,7 +10,7 @@ p {
 
 .projects-container > section {
   width: 88vw;
-  max-width: 88vw;
+  max-width: 800px;
   background: url("../../images/bg04.jpg");
   box-shadow: 0 10px 40px #555;
   border: 1px solid #fff;
@@ -20,7 +20,7 @@ p {
 .projects-container > section > p {
   width: 88vw;
   padding: 40px;
-  max-width: 88vw;
+  max-width: 800px;
   margin-bottom: 0px;
   color: #fff;
 }

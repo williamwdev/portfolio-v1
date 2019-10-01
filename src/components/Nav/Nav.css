@@ -6,7 +6,6 @@ nav {
   padding-top: 10px;
   box-shadow: inset 0px -20px 70px 0px rgba(200, 220, 245, 0.1), inset 0px -1px 0px 0px rgba(255, 255, 255, 0.1), 0px 1px 7px 0px rgba(0, 0, 0, 0.6);
   text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.75);
-  /* width: 100%; */
   flex: 1 0 auto;
   margin: 0;
   padding: 0;  
@@ -62,7 +61,7 @@ nav {
 nav > ul > li > a {
   font-family: 'Raleway', serif;
   transition: color .2s ease-in-out;
-  color: rgba(243, 241, 241, 0.884);
+  color: #FFF;
   font-weight: bolder;
   text-decoration: none;
   /* text-shadow: -1px -1px 1px rgba(253, 253, 253, 0.63); */
@@ -82,4 +81,10 @@ nav > ul > li > a:hover {
   color: rgb(238,29,36);
   transition: 0.1s ease;
   animation: pulse 1s infinite;
+}
+
+@media screen and (max-width: 500px) {
+  nav > ul > li > a {
+    font-size: 14px;
+  }
 }
