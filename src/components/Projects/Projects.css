@@ -9,8 +9,8 @@ p {
 }
 
 .projects-container > section {
-  width: 800px;
-  max-width: 740px;
+  width: 88vw;
+  max-width: 88vw;
   background: url("../../images/bg04.jpg");
   box-shadow: 0 10px 40px #555;
   border: 1px solid #fff;
@@ -18,9 +18,9 @@ p {
 }
 
 .projects-container > section > p {
-  width: 90vw;
+  width: 88vw;
   padding: 40px;
-  max-width: 740px;
+  max-width: 88vw;
   margin-bottom: 0px;
   color: #fff;
 }
@@ -101,7 +101,7 @@ h2 {
   .projects-container > section {
     width: 88vw;
     max-width: 88vw;
-    margin-right: 40px;
+    /* margin-right: 40px; */
   }
 
   .projects-container > section > p {

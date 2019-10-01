@@ -9,7 +9,7 @@ p {
 
 .about-container > section {
   margin-top: 50px;
-  width: 740px;
+  width: 90vw;
   max-width: 940px;
   background: url("../../images/bg04.jpg");
   box-shadow: 5px 10px 40px #555;
@@ -18,7 +18,7 @@ p {
 }
 
 .about-container > section > p {
-  width: 740px;
+  width: 90vw;
   padding: 40px;
   max-width: 940px;
   color: #fff;
@@ -37,7 +37,7 @@ p {
 .about-ss {
   margin-top: 40px;
   border-style: none;
-  width: 300px;
+  width: 30vw;
   border-radius: 5%;
   /* box-shadow: 0 10px 15px #555; */
   border: 1px solid #fff;
