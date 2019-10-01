@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import "../Nav/Nav.css";
-// import ww from "../../images/ww.png";
 import NwW from "../../images/NwW.png";
 
 export default class Nav extends Component {

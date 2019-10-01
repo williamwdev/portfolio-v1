@@ -1,10 +1,20 @@
 import React, { Component } from "react";
+import { fadeIn } from 'react-animations';
+import Radium, {StyleRoot} from 'radium';
 import '../Footer/Footer.css'
+
+const styles = {
+  fadeIn: {
+    animation: 'x 8s',
+    animationName: Radium.keyframes(fadeIn, 'fadeIn')
+  }
+}
 
 export default class Footer extends Component {
   render() {
     return (
-      <div className="footer">
+      <StyleRoot>
+      <div className="footer" style= {styles.fadeIn}>
         <a
           href="https://github.com/dc5will"
           target="_blank"
@@ -35,6 +45,7 @@ export default class Footer extends Component {
           />
         </a>
       </div>
+      </StyleRoot>
     );
   }
 }
