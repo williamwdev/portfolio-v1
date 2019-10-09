@@ -9,8 +9,8 @@ p {
 
 .about-container > section {
   margin-top: 50px;
-  width: 90vw;
-  max-width: 940px;
+  width: 88vw;
+  max-width: 800px;
   background: url("../../images/bg04.jpg");
   box-shadow: 5px 10px 40px #555;
   border: 1px solid grey;
@@ -18,9 +18,9 @@ p {
 }
 
 .about-container > section > p {
-  width: 90vw;
+  width: 88vw;
   padding: 40px;
-  max-width: 940px;
+  max-width: 800px;
   color: #fff;
 }
 
@@ -41,7 +41,7 @@ p {
   border-radius: 5%;
   /* box-shadow: 0 10px 15px #555; */
   border: 1px solid #fff;
-  max-width: 400px;
+  max-width: 300px;
 }
 
 #pancake-ss {

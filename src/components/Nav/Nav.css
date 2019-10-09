@@ -58,22 +58,21 @@ nav {
   }
 }
 
+
 nav > ul > li > a {
+  overflow: hidden;
   font-family: 'Raleway', serif;
   transition: color .2s ease-in-out;
   color: #FFF;
   font-weight: bolder;
   text-decoration: none;
-  /* text-shadow: -1px -1px 1px rgba(253, 253, 253, 0.63); */
   margin-right: 20px;
   cursor: pointer;
 }
 
 nav > ul > li > a:hover {
-  color: rgb(238,29,36);
-  border-radius: 20%;
-  transition: 0.1s ease;
-  animation: pulse 1s infinite;
+  color: #fff;
+  border-bottom: 2px solid #FFF;
 }
 
 .nav-container i:hover {
