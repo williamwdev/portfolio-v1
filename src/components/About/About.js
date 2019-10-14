@@ -1,21 +1,12 @@
 import React, { Component } from "react";
 import aboutme2 from "../../images/aboutme2.jpg";
 import aboutme3 from "../../images/aboutme3.jpg";
-import { CSSTransition } from 'react-transition-group'
 import "../About/About.css";
 
 export default class About extends Component {
   render() {
     return (
-      // <>
-        <CSSTransition
-          transitionname="aboutTransition"
-          transitionappear='true'
-          transitionappeartimeout={500}
-          transitionenter='false'
-          transitionLeave={false}
-        >
-        <section className="about-container">
+        <div className="about-container">
           <img
             src={aboutme2}
             alt="screenshot of the dashboard of armory squad"
@@ -50,9 +41,7 @@ export default class About extends Component {
             maximize efficiency, and following my passion for technology and the
             latest electronic trends.
           </p>
-        </section>
-        </CSSTransition>
-      // </>
+        </div>
     );
   }
 }

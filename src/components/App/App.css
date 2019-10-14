@@ -42,6 +42,7 @@ section {
   margin-top: 50px;
 }
 
+/* Transition Styling */
 .fade-enter {
   opacity: 0;
   transform: translateX(-100px);

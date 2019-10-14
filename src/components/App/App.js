@@ -6,24 +6,23 @@ import AboutPage from "../../routes/AboutPage/AboutPage";
 import { TransitionGroup, CSSTransition } from "react-transition-group";
 import "../App/App.css";
 
-
-function Container ({ location }) {
+function Container({ location }) {
   return (
-      <TransitionGroup className="transition-group">
-        <CSSTransition
-          key={location.key}
-          timeout={{ enter: 300, exit: 300 }}
-          classNames="fade"
-        >
-          <section className="route-section">
-            <Switch location={location}>
-              <Route exact path="/" component={HomePage} />
-              <Route path="/about" component={AboutPage} />
-              <Route path="/projects" component={ProjectsPage} />
-            </Switch>
-          </section>
-        </CSSTransition>
-      </TransitionGroup>
+    <TransitionGroup className="transition-group">
+      <CSSTransition
+        key={location.key}
+        timeout={{ enter: 300, exit: 300 }}
+        classNames="fade"
+      >
+        <section className="route-section">
+          <Switch location={location}>
+            <Route exact path="/" component={HomePage} />
+            <Route path="/about" component={AboutPage} />
+            <Route path="/projects" component={ProjectsPage} />
+          </Switch>
+        </section>
+      </CSSTransition>
+    </TransitionGroup>
   );
 }
 

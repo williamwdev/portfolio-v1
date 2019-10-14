@@ -5,7 +5,6 @@ import { BrowserRouter } from "react-router-dom";
 
 import Container from "./components/App/App";
 import Nav from "./components/Nav/Nav";
-// import Footer from './components/Footer/Footer'
 
 const App = () => (
   <BrowserRouter>
