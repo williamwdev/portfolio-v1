@@ -23,7 +23,7 @@ p {
   max-width: 800px;
   background: url("../../images/bg04.jpg");
   box-shadow: 5px 10px 40px #555;
-  border: 1px solid grey;
+  border: 1px solid #FFF;
   border-radius: 4px;
 }
 
