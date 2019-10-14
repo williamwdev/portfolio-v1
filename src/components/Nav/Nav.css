@@ -11,7 +11,7 @@ nav {
   padding: 0;  
   align-items: center;
   height: 55px;
-  position: fixed;
+  /* position: fixed; */
   width: 100%;
 }
 

@@ -1,13 +1,19 @@
 import React from "react";
-import ReactDOM from "react-dom";
+import { render } from "react-dom";
 import "./index.css";
-import App from "./components/App/App";
 import { BrowserRouter } from "react-router-dom";
 
+import Container from "./components/App/App";
+import Nav from "./components/Nav/Nav";
+// import Footer from './components/Footer/Footer'
 
-ReactDOM.render(
+const App = () => (
   <BrowserRouter>
-    <App/>
-  </BrowserRouter>,
-  document.getElementById("root")
+    <div>
+      <Nav />
+      <Container />
+    </div>
+  </BrowserRouter>
 );
+
+render(<App />, document.getElementById("root"));

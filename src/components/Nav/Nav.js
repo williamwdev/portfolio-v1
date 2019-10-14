@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-import "../Nav/Nav.css";
 import NwW from "../../images/NwW.png";
+import "../Nav/Nav.css";
 
 export default class Nav extends Component {
   render() {

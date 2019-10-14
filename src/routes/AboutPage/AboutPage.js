@@ -6,6 +6,7 @@ import "../AboutPage/AboutPage.css";
 export default class AboutPage extends Component {
   render() {
     return (
+      <>
       <div className="about-page">
         <div className="about-page-banner">
           <Typist avgTypingSpeed={70} startDelay={500} cursor={{ element: "" }}>
@@ -16,6 +17,7 @@ export default class AboutPage extends Component {
           <About />
         </section>
       </div>
+      </>
     );
   }
 }
