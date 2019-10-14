@@ -103,8 +103,10 @@ export default class Header extends Component {
           </h1>
           <Typist.Delay ms={500} />
           <br />
-          <p className="banner-subtitle">Full-Stack Web Developer</p>
-          <p className="banner-location">San Diego | Las Vegas</p>
+          <div className="banner-wrapper">
+            <p className="banner-subtitle">Full-Stack Web Developer</p>
+            <p className="banner-location">San Diego | Las Vegas</p>
+          </div>
         </Typist>
       </header>
     );

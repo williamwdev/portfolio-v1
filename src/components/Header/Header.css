@@ -33,6 +33,10 @@ h1 {
   font-size: 20px;
 }
 
+.banner-wrapper {
+  margin-bottom: 40px;
+}
+
 h1, p {
   font-family: 'Raleway', sans-serif;
 }
