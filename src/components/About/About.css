@@ -56,14 +56,7 @@ p {
   border: 1px solid #fff;
 }
 
-.aboutTransition-appear{
-  opacity: 0;
-}
 
-.aboutTransition-appear, .aboutTransition-appear-active{
-  opacity: 1;
-  transition: all .4s ease-in-out;
-}
 
 
 

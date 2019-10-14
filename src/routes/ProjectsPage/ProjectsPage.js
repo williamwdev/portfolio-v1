@@ -8,9 +8,9 @@ export default class ProjectsPage extends Component {
     return (
       <div className="project-page">
         <div className="project-page-banner">
-          <Typist avgTypingSpeed={70} startDelay={500} cursor={{ element: "" }}>
+          {/* <Typist avgTypingSpeed={70} startDelay={500} cursor={{ element: "" }}> */}
             <h1 className="project-title">Projects</h1>
-          </Typist>
+          {/* </Typist> */}
         </div>
         <section className="projects-container">
           <Projects />

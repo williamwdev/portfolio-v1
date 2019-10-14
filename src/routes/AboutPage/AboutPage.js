@@ -9,9 +9,9 @@ export default class AboutPage extends Component {
       <>
       <div className="about-page">
         <div className="about-page-banner">
-          <Typist avgTypingSpeed={70} startDelay={500} cursor={{ element: "" }}>
+          {/* <Typist avgTypingSpeed={70} startDelay={500} cursor={{ element: "" }}> */}
             <h1 className="about-title">Introduction</h1>
-          </Typist>
+          {/* </Typist> */}
         </div>
         <section className="about-container">
           <About />
