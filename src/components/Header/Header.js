@@ -10,6 +10,7 @@ export default class Header extends Component {
       <header role="banner" className="home-banner">
         <Particles
           height="200px"
+          width="300px"
           params={{
             particles: {
               number: {

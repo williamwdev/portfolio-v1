@@ -2,35 +2,42 @@
   /* display: flex; */
   background: url('../../images/bg01.jpg');
   opacity: 0.95;
-  justify-content: space-between;
-  padding-top: 10px;
+  /* justify-content: space-between; */
+  /* padding-top: 10px; */
   box-shadow: inset 0px -20px 70px 0px rgba(200, 220, 245, 0.1), inset 0px -1px 0px 0px rgba(255, 255, 255, 0.1), 0px 1px 7px 0px rgba(0, 0, 0, 0.6);
   text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.75);
   flex: 1 0 auto;
   margin: 0;
   padding: 0;
   /* align-items: center; */
-  /* height: 55px; */
   /* position: fixed; */
   width: 100%;
 }
 
-.nav-container {
+/* .nav-container {
   display: flex;
-}
+} */
 
-nav>li {
+/* .main-nav li {
+  display: flex;
+  text-align: right;
+  margin: 10px auto;
+
+} */
+
+/* nav>li {
   display: flex;
   margin: 0;
   padding: 0;
   list-style: none;
-}
+} */
 
 .nav-container i {
   margin-right: 5px;
 }
 
 .nav-logo {
+  display: inline-block;
   margin-left: 10px;
   margin-top: 10px;
   border-radius: 50%;
@@ -46,12 +53,11 @@ nav>li {
 .main-nav {
   list-style-type: none;
   display: none;
-  flex-direction: row;
 }
 
 .main-nav li {
   text-align: center;
-  margin: 0 0 10px 0px;;
+  margin: 0 0 10px 0px;
 }
 
 #footer-email-icon {
@@ -63,7 +69,7 @@ nav>li {
   top: 10px;
   right: 20px;
   cursor: pointer;
-  color: rgba(255, 255, 255, 0.8);
+  color: rgb(245, 226, 226);
   font-size: 24px;
 }
 
@@ -118,26 +124,40 @@ nav>ul>li>a:hover {
     display: flex;
     justify-content: space-between;
     padding-bottom: 0;
-    height: 90px;
+    height: 60px;
     align-items: center;
   }
 
   .main-nav {
     display: flex;
-    margin-right: 30px;
+    margin-right: 10px;
     flex-direction: row;
     justify-content: flex-end;
   }
 
-  .nav-links {
-    margin-left: 40px;
+  .main-nav li {
+    display: flex;
+    margin: -10px;
   }
 
-  .logo {
-    margin-top: 0;
+  .nav-links {
+    /* display: flex; */
+    margin: 20px;
+    padding: 0px;
   }
+
+  /* .nav-logo {
+    display: inline-block;
+    font-size: 22px;
+    margin-top: 10px;
+    margin-left: 20px;
+  } */
 
   .navbar-toggle {
     display: none;
+  }
+
+  #footer-email-icon {
+    margin-bottom: 0px;
   }
 }

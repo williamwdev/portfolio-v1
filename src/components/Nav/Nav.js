@@ -21,7 +21,7 @@ export default class Nav extends Component {
           <i className="fas fa-bars"></i>
         </span>
 
-        <div className="logo">
+        {/* <div className="logo"> */}
           <Link to="/">
             <img
               src={NwW}
@@ -30,7 +30,7 @@ export default class Nav extends Component {
               height="75px"
             />
           </Link>
-        </div>
+        {/* </div> */}
         <ul className="main-nav" id="js-menu">
           <li className="home-nav">
             <Link className="nav-links" to="/about">
