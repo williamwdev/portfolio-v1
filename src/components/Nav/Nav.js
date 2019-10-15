@@ -43,55 +43,55 @@ export default class Nav extends Component {
             </Link>
           </li>
           <li>
-          <a
-            href="https://github.com/dc5will"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="nav-links"
-          >
-            <i
-              className="fab fa-github fa-lg"
-              id="footer-github-icon"
-              alt="github"
-            />
-          </a>
+            <a
+              href="https://github.com/dc5will"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="nav-links"
+            >
+              <i
+                className="fab fa-github fa-lg"
+                id="footer-github-icon"
+                alt="github"
+              />
+            </a>
           </li>
           <li>
-          <a
-            href="http://www.linkedin.com/in/williamwdev"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="nav-links"
-          >
-            <i
-              className="fab fa-linkedin-in fa-lg"
-              id="footer-linkedin-icon"
-              alt="linkedin link"
-            />
-          </a>
+            <a
+              href="http://www.linkedin.com/in/williamwdev"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="nav-links"
+            >
+              <i
+                className="fab fa-linkedin-in fa-lg"
+                id="footer-linkedin-icon"
+                alt="linkedin link"
+              />
+            </a>
           </li>
           <li>
-          <a
-            href="https://resume.creddle.io/resume/e7prxj1wpof"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="nav-links"
-          >
-            <i
-              className="fas fa-file fa-lg"
-              id="footer-resume-icon"
-              alt="resume link"
-            />
-          </a>
+            <a
+              href="https://resume.creddle.io/resume/e7prxj1wpof"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="nav-links"
+            >
+              <i
+                className="fas fa-file fa-lg"
+                id="footer-resume-icon"
+                alt="resume link"
+              />
+            </a>
           </li>
           <li>
-          <a href="mailto:williamwdev@gmail.com" className="nav-links">
-            <i
-              className="fas fa-envelope fa-lg"
-              id="footer-email-icon"
-              alt="email me link"
-            />
-          </a>
+            <a href="mailto:williamwdev@gmail.com" className="nav-links">
+              <i
+                className="fas fa-envelope fa-lg"
+                id="footer-email-icon"
+                alt="email me link"
+              />
+            </a>
           </li>
         </ul>
       </nav>
