@@ -23,8 +23,24 @@ p {
   max-width: 800px;
   background: url("../../images/bg04.jpg");
   box-shadow: 5px 10px 40px #555;
-  border: 1px solid #FFF;
-  border-radius: 4px;
+  border: 2px solid #FFF;
+  border-radius: 8px;
+  animation: pulseWhite 1s infinite;
+}
+
+@keyframes pulseWhite {
+  0% {
+    -moz-box-shadow: -1px 0px 5px 0px rgb(255,255,255);
+    box-shadow: 0px 0px 5px 1px rgb(255,255,255);
+  }
+  50% {
+      -moz-box-shadow: 0px 1px 5px 0px rgb(255,255,255);
+      box-shadow: 0px 0px 5px 0px rgb(255,255,255);
+  }
+  100% {
+    -moz-box-shadow: -1px 0px 5px 0px rgb(255,255,255);
+    box-shadow: 0px 0px 5px 1.5px rgb(255,255,255);
+  }
 }
 
 .about-container > div > p {
