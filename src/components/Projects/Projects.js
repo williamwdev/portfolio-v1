@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import armorySS from "../../images/armorySS.JPG";
 import happydogSS from "../../images/happydogSS.jpg";
-import bookmarkapp from "../../images/bookmarkappSS.jpg";
+// import bookmarkapp from "../../images/bookmarkappSS.jpg";
 import spacedRep from "../../images/spacedRep.jpg";
 import "../Projects/Projects.css";
 
