@@ -18,7 +18,7 @@ export default class Nav extends Component {
       // <div className="nav-container">
       <nav className="navbar" role="navigation">
         <span className="navbar-toggle" id="js-navbar-toggle">
-          <i className="fas fa-bars"></i>
+          <i className="fas fa-bars" id='hamburger-icon'></i>
         </span>
 
         {/* <div className="logo"> */}

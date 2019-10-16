@@ -3,6 +3,7 @@ import Particles from "react-particles-js";
 import Typist from "react-typist";
 import NwW from "../../images/NwW.png";
 import "../Header/Header.css";
+import Footer from '../../components/Footer/Footer'
 
 export default class Header extends Component {
   render() {
@@ -98,7 +99,7 @@ export default class Header extends Component {
           className="header-logo"
           width="150px"
         />
-        <Typist avgTypingSpeed={70} startDelay={500} cursor={{ element: "" }}>
+        <Typist avgTypingSpeed={100} startDelay={100} cursor={{ element: "" }}>
           <h1>
             Hello, I'm <span className="banner-name">William Wong.</span>
           </h1>
@@ -108,6 +109,7 @@ export default class Header extends Component {
             <p className="banner-subtitle">Full-Stack Web Developer</p>
             <p className="banner-location">San Diego | Las Vegas</p>
           </div>
+          <Footer />
         </Typist>
       </header>
     );
