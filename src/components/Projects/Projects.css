@@ -42,7 +42,23 @@ p {
 .project-ss {
   width: 100vw;
   border-top: 1px solid #FFF;
+  opacity: 0.6;
+  transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -webkit-transition: opacity 1s ease-in-out;
 }
+
+.project-ss:hover {
+  opacity: 1;
+  transition: opacity .55s ease-in-out;
+  -moz-transition: opacity .55s ease-in-out;
+  -webkit-transition: opacity .55s ease-in-out;
+  transition: 0.4s ease;
+  animation: pulseWhite 1.5s infinite;
+  transform: scale(1.05);
+  border: 1px solid #FFF;
+}
+
 
 .tech-stack {
   color: #fff;
