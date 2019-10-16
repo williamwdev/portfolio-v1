@@ -5,7 +5,7 @@ import '../Footer/Footer.css'
 
 const styles = {
   fadeIn: {
-    animation: 'x 15s',
+    animation: 'x 10s',
     animationName: Radium.keyframes(fadeIn, 'fadeIn')
   }
 }
