@@ -48,4 +48,5 @@ a {
   color: rgb(238,29,36);
   transition: 0.1s ease;
   animation: pulse 1s infinite;
+  transform: scale(1.20);
 }
