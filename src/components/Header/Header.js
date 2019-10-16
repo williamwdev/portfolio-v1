@@ -14,7 +14,7 @@ export default class Header extends Component {
           params={{
             particles: {
               number: {
-                value: 300,
+                value: 400,
                 density: {
                   enable: true,
                   value_area: 600
@@ -31,11 +31,11 @@ export default class Header extends Component {
                 }
               },
               opacity: {
-                value: 0.4,
+                value: 0.3,
                 random: true,
                 anim: {
                   enable: true,
-                  speed: 4,
+                  speed: 5,
                   opacity_min: 0.1,
                   sync: false
                 }
