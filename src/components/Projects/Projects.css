@@ -15,6 +15,7 @@ p {
   box-shadow: 0 10px 40px #555;
   border: 1px solid #fff;
   border-radius: 4px;
+  animation: pulseWhite 1s infinite;
 }
 
 .projects-container > section > p {

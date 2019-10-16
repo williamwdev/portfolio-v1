@@ -3,6 +3,7 @@ import Particles from "react-particles-js";
 import Typist from "react-typist";
 import NwW from "../../images/NwW.png";
 import "../Header/Header.css";
+import Footer from '../../components/Footer/Footer'
 
 export default class Header extends Component {
   render() {
@@ -10,10 +11,11 @@ export default class Header extends Component {
       <header role="banner" className="home-banner">
         <Particles
           height="200px"
+          width="300px"
           params={{
             particles: {
               number: {
-                value: 300,
+                value: 400,
                 density: {
                   enable: true,
                   value_area: 600
@@ -30,11 +32,11 @@ export default class Header extends Component {
                 }
               },
               opacity: {
-                value: 0.4,
+                value: 0.3,
                 random: true,
                 anim: {
                   enable: true,
-                  speed: 4,
+                  speed: 5,
                   opacity_min: 0.1,
                   sync: false
                 }
@@ -97,7 +99,7 @@ export default class Header extends Component {
           className="header-logo"
           width="150px"
         />
-        <Typist avgTypingSpeed={70} startDelay={500} cursor={{ element: "" }}>
+        <Typist avgTypingSpeed={100} startDelay={100} cursor={{ element: "" }}>
           <h1>
             Hello, I'm <span className="banner-name">William Wong.</span>
           </h1>
@@ -107,6 +109,7 @@ export default class Header extends Component {
             <p className="banner-subtitle">Full-Stack Web Developer</p>
             <p className="banner-location">San Diego | Las Vegas</p>
           </div>
+          <Footer />
         </Typist>
       </header>
     );

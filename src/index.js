@@ -7,6 +7,7 @@ import Container from "./components/App/App";
 import Nav from "./components/Nav/Nav";
 
 const App = () => (
+  
   <BrowserRouter>
     <div>
       <Nav />

@@ -24,6 +24,7 @@ a {
   font-size: 20px;
   line-height: 2.75em;
   margin: 20px;
+  animation: pulseWhite 1s infinite;
 }
 
 @keyframes pulse {

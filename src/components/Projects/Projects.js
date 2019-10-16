@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import armorySS from "../../images/armorySS.JPG";
 import happydogSS from "../../images/happydogSS.jpg";
-import bookmarkapp from "../../images/bookmarkappSS.jpg";
+// import bookmarkapp from "../../images/bookmarkappSS.jpg";
 import spacedRep from "../../images/spacedRep.jpg";
 import "../Projects/Projects.css";
 
@@ -130,7 +130,7 @@ export default class Projects extends Component {
           </a>
         </section>
 
-        <section className="bookmarkapp-project">
+        {/* <section className="bookmarkapp-project">
           <h2 className="project-name">Bookmark App</h2>
           <p>
             This is an web application that allows the users to save/rate their
@@ -166,7 +166,7 @@ export default class Projects extends Component {
             />
           </a>
           {/* <br/> */}
-        </section>
+        {/* </section> */} */}
       </div>
     );
   }
