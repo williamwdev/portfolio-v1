@@ -22,7 +22,7 @@ export default class Projects extends Component {
           <hr className="linebreak" />
           <span className="tech-stack">
             <strong>Built with</strong>: HTML5, CSS3, React.js, Node.js,
-            Express.js, , JWT, PostgreSQL, Nodemailer, Mocha/Chai, Supertest,
+            Express.js, JWT, PostgreSQL, Nodemailer, Mocha/Chai, Supertest,
             Enzyme, Zeit NOW, Heroku and SocketIO{" "}
           </span>
           <a
