@@ -44,7 +44,7 @@ export default class Nav extends Component {
           </li>
           <li>
             <a
-              href="https://github.com/dc5will"
+              href="https://github.com/williamwdev"
               target="_blank"
               rel="noopener noreferrer"
               className="nav-links"
