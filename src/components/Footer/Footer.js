@@ -16,7 +16,7 @@ export default class Footer extends Component {
       <StyleRoot>
       <div className="footer" style= {styles.fadeIn}>
         <a
-          href="https://github.com/dc5will"
+          href="https://github.com/williamwdev"
           target="_blank"
           rel="noopener noreferrer"
         >

@@ -107,7 +107,7 @@ export default class Header extends Component {
           <br />
           <div className="banner-wrapper">
             <p className="banner-subtitle">Full-Stack Web Developer</p>
-            <p className="banner-location">San Diego | Las Vegas</p>
+            <p className="banner-location">Las Vegas</p>
           </div>
           <Footer />
         </Typist>

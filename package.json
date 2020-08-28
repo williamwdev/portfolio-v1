@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "now": "^20.1.0",
     "radium": "^0.26.0",
     "react": "^16.8.6",
     "react-animations": "^1.0.0",
